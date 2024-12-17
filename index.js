@@ -21,9 +21,7 @@ puppeteer.use(StealthPlugin());
 
 		const pages = await browserInstance.pages();
 		const page = roomIndex === 0 ? pages[0] : await browserInstance.newPage();
-		page.on('console', msg => {
-			console.log(`#${roomId}:`, msg.text());
-		});
+		page.on('console', msg => console.log(`#${roomId}:`, msg.text()));
 
 		await page.goto('https://www.haxball.com/headless', { waitUntil: 'networkidle0' });
 
