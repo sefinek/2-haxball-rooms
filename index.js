@@ -34,8 +34,8 @@ puppeteer.use(StealthPlugin());
 			.replace('<ROOM_NAME>', roomName)
 			.replace('<PASSWORD>', process.env.PASSWORD)
 			.replace('<TOKEN>', roomToken)
-			.replace('<LAT>', process.env[`LAT_${roomId}`])
-			.replace('<LON>', process.env[`LON_${roomId}`]);
+			.replace('\'<LAT>\'', process.env[`LAT_${roomId}`])
+			.replace('\'<LON>\'', process.env[`LON_${roomId}`]);
 
 		await page.evaluate(injectedScript => {
 			const scriptElement = document.createElement('script');

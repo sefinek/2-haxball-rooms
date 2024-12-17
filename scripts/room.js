@@ -6,7 +6,7 @@ const roomConfig = {
 	playerName: 'SPERMOFILEK RS',
 	token: '<TOKEN>',
 	noPlayer: true,
-	geo: { code: 'PL', lat: 52.2295875549316, lon: 21.0067005157471 },
+	geo: { code: 'PL', lat: '<LAT>', lon: '<LON>' },
 };
 
 const room = HBInit(roomConfig);
