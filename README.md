@@ -3,5 +3,8 @@ Launches two HaxBall rooms with the specified name and LAT/LON from the `.env` f
 
 Uruchamia dwa pokoje HaxBall o konkretnej nazwie i LAT/LON z pliku `.env`. I to wszystko.
 
+## Video
+https://github.com/user-attachments/assets/7728d032-b577-4519-a98f-1db554d67bfd
+
 ## Other repos
 https://github.com/sefinek/haxball-raid-clones
