@@ -1,6 +1,6 @@
 const roomConfig = {
 	roomName: '<ROOM_NAME>',
-	maxPlayers: 16,
+	maxPlayers: 1,
 	public: true,
 	password: '<PASSWORD>',
 	playerName: 'SPERMOFILEK RS',
