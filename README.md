@@ -6,5 +6,8 @@ Uruchamia dwa pokoje HaxBall o konkretnej nazwie i LAT/LON z pliku `.env`. I to 
 ## Video
 https://github.com/user-attachments/assets/7728d032-b577-4519-a98f-1db554d67bfd
 
+## Required dependencies
+https://github.com/sefinek/sefinek/blob/main/chrome.md
+
 ## Other repos
 https://github.com/sefinek/haxball-raid-clones
