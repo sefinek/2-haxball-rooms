@@ -1,0 +1,31 @@
+{
+  "name": "2-haxball-rooms",
+  "version": "0.1.1",
+  "description": "",
+  "homepage": "https://github.com/sefinek/2-haxball-rooms#readme",
+  "bugs": {
+    "url": "https://github.com/sefinek/2-haxball-rooms/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek/2-haxball-rooms.git"
+  },
+  "license": "MIT",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.1.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "globals": "^15.14.0"
+  }
+}
